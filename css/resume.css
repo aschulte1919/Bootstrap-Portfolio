@@ -16,11 +16,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, img {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
+}
+
+div {
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.6rem;
 }
 
 h1 {
@@ -155,4 +160,10 @@ a:hover, a:focus, a:active {
 
 #sendMessageButton{
   background-color: #82B7E3;
+}
+
+.modals{
+  width: 80%;
+  text-align: center;
+  padding-right: 10px;
 }
